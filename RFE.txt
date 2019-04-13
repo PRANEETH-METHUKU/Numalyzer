@@ -1,0 +1,75 @@
+Training Data: 226 instances, Testing Data: 100instances, Overall Data: 326 instances
+
+Feature Extraction
+
+	For combination of 1 Features
+['RISK_MM']
+
+	For combination of 2 Features
+['Pressure3pm', 'RISK_MM']
+
+	For combination of 3 Features
+['Pressure9am', 'Pressure3pm', 'RISK_MM']
+
+	For combination of 4 Features
+['Sunshine', 'Pressure9am', 'Pressure3pm', 'RISK_MM']
+
+	For combination of 5 Features
+['Evaporation', 'Sunshine', 'Pressure9am', 'Pressure3pm', 'RISK_MM']
+
+	For combination of 6 Features
+['MinTemp', 'Evaporation', 'Sunshine', 'Pressure9am', 'Pressure3pm', 'RISK_MM']
+
+	For combination of 7 Features
+['MinTemp', 'Evaporation', 'Sunshine', 'Pressure9am', 'Pressure3pm', 'Cloud3pm', 'RISK_MM']
+
+	For combination of 8 Features
+['MinTemp', 'Evaporation', 'Sunshine', 'WindSpeed9am', 'Pressure9am', 'Pressure3pm', 'Cloud3pm', 'RISK_MM']
+
+	For combination of 9 Features
+['MinTemp', 'MaxTemp', 'Evaporation', 'Sunshine', 'WindSpeed9am', 'Pressure9am', 'Pressure3pm', 'Cloud3pm', 'RISK_MM']
+
+	For combination of 10 Features
+['MinTemp', 'MaxTemp', 'Evaporation', 'Sunshine', 'WindSpeed9am', 'Pressure9am', 'Pressure3pm', 'Cloud3pm', 'RainToday', 'RISK_MM']
+
+	For combination of 11 Features
+['MinTemp', 'MaxTemp', 'Evaporation', 'Sunshine', 'WindSpeed9am', 'Humidity9am', 'Pressure9am', 'Pressure3pm', 'Cloud3pm', 'RainToday', 'RISK_MM']
+
+	For combination of 12 Features
+['MinTemp', 'MaxTemp', 'Evaporation', 'Sunshine', 'WindSpeed9am', 'WindSpeed3pm', 'Humidity9am', 'Pressure9am', 'Pressure3pm', 'Cloud3pm', 'RainToday', 'RISK_MM']
+
+	For combination of 13 Features
+['MinTemp', 'MaxTemp', 'Evaporation', 'Sunshine', 'WindSpeed9am', 'WindSpeed3pm', 'Humidity9am', 'Humidity3pm', 'Pressure9am', 'Pressure3pm', 'Cloud3pm', 'RainToday', 'RISK_MM']
+
+	For combination of 14 Features
+['MinTemp', 'MaxTemp', 'Evaporation', 'Sunshine', 'WindGustSpeed', 'WindSpeed9am', 'WindSpeed3pm', 'Humidity9am', 'Humidity3pm', 'Pressure9am', 'Pressure3pm', 'Cloud3pm', 'RainToday', 'RISK_MM']
+
+	For combination of 15 Features
+['MinTemp', 'MaxTemp', 'Evaporation', 'Sunshine', 'WindGustSpeed', 'WindSpeed9am', 'WindSpeed3pm', 'Humidity9am', 'Humidity3pm', 'Pressure9am', 'Pressure3pm', 'Cloud3pm', 'Temp3pm', 'RainToday', 'RISK_MM']
+
+	For combination of 16 Features
+['MinTemp', 'MaxTemp', 'Evaporation', 'Sunshine', 'WindGustSpeed', 'WindSpeed9am', 'WindSpeed3pm', 'Humidity9am', 'Humidity3pm', 'Pressure9am', 'Pressure3pm', 'Cloud3pm', 'Temp9am', 'Temp3pm', 'RainToday', 'RISK_MM']
+
+	For combination of 17 Features
+['MinTemp', 'MaxTemp', 'Rainfall', 'Evaporation', 'Sunshine', 'WindGustSpeed', 'WindSpeed9am', 'WindSpeed3pm', 'Humidity9am', 'Humidity3pm', 'Pressure9am', 'Pressure3pm', 'Cloud3pm', 'Temp9am', 'Temp3pm', 'RainToday', 'RISK_MM']
+
+GaussianNB
+Accuracy: 95.0
+MultinomialNB
+Accuracy: 92.0
+BernoulliNB
+Accuracy: 83.0
+KNeighborsClassifier
+Accuracy: 83.0
+RandomForestClassifier
+Accuracy: 96.0
+DecisionTreeClassifier
+Accuracy: 100.0
+SVM.SVC
+Accuracy: 81.0
+KMeans
+Accuracy: 35.0
+SVC
+Accuracy: 82.5688073394
+KMeans
+Accuracy: 40.3669724771
